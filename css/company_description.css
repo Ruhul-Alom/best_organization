@@ -1,0 +1,166 @@
+
+* {
+    box-sizing: border-box;
+}
+.rating{
+    color: rgb(253, 180, 42);
+    margin: 12px;
+
+  }
+.fa {
+    font-size: 25px;
+}
+.comment-fa{
+   font-size: 16px;
+}
+
+.left-bar {
+    float: left;
+    width: 5%;
+    margin-top:10px;
+}
+.right-bar {
+    margin-top:10px;
+    float: left;
+    width: 95%;
+}
+.row-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.review-rating:after {
+    content: "";
+    clear: both;
+}
+.left-review {
+    float: left;
+    width: 30%;
+    margin-top:10px;
+    text-align: center;
+}
+.right-review {
+    float: left;
+    width: 70%;
+    margin-top:10px;
+}
+.review-title{
+    font-size: 56pt;
+}
+.review-star{
+	 color: rgb(253, 180, 42);
+    margin: 0 0 10px 0;
+}
+.review-people .fa{
+    font-size: 11pt;
+}
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+.bar-5 {height: 18px; background-color: #57bb8a;}
+.bar-4 {height: 18px; background-color: #9ace6a;}
+.bar-3 {height: 18px; background-color: #ffcf02;}
+.bar-2 {height: 18px; background-color: #ff9f02;}
+.bar-1 {height: 18px; background-color: #ff6f31;}
+.star-rating{
+    text-align: center;
+}
+.star-rating .fa:hover{
+ /* color: blue;*/
+  color: rgb(253, 180, 42);
+
+}
+.heading {
+    font-size: 25px;
+    color: #999;
+    border-bottom: 2px solid #eee;
+}
+
+
+
+
+	.contain{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.left-div{
+		width:30%;
+		height: auto;
+		background-color: #E3E2DD;
+		opacity:1;
+		margin-right:10px;
+
+	}
+	.right-div{
+		width:68%;
+		height: auto;
+		background-color: #E3E2DD;
+	
+		margin-right:10px;
+
+
+	}
+	.left-div ul {
+		list-style: none;
+	}
+	.left-div ul li{
+		padding: 12px;
+		border-bottom: 1px solid black;
+
+	}
+	.left-div ul li a{
+		text-decoration: none;
+	}
+	.card1{
+		width: 85%;
+		margin:0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.card img{
+		height:250px;
+	}
+    .review__consumer-information {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e8e8eb;
+    color: #454554;
+    display: flex;
+}
+img{
+  width: 100%;
+}
+.consumer-information__picture {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.per-comment{
+   background-color: white;
+   padding-top: 10px;
+   margin-bottom: 10px;
+}
+  .footer-color{
+    background-color: #F9F8F4;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-item ul{
+
+list-style: none;
+}
+  .social-link{
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-link img{
+    height: 20vh;
+  }

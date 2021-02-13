@@ -1,0 +1,22 @@
+.my-card{
+  height:120px;
+  width: 350px;
+  margin:2%; 
+}
+.view-card{
+  display: flex;
+  margin-top: 20px;
+}
+.font-size{
+  font-size: 18px;
+}
+.user-profile{
+  margin-top: 25px;
+  margin-left: 5%;
+  background-color: #F2DEDE;
+  height: 430px;
+  width: 280px
+}
+.my-heading{
+	background-color: red ;
+}

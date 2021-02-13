@@ -1,0 +1,196 @@
+
+
+/*common css*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+img{
+  width:100%;
+}
+
+.my-header
+{background-color:#EFEDE1;
+  
+}
+
+ .side-menu
+ {
+       width: 25%;
+        background-color:rgb(0,64,68) ;
+        color: black;
+        position: absolute;
+        top:40px;
+        left: 100px;
+        z-index: 10;
+
+  }
+    .side-menu li
+  {
+        list-style: none;
+        border-bottom: 1px solid #d3d3d3;
+  }
+    .my-header
+  {
+       position: relative;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.catagory-img{
+  width:80%;
+  margin-right: 10px;
+
+}*/
+.catagory{
+  width: 32%;
+  border: 1px solid rgb(221,221,221);
+  display: flex;
+  padding: 20px;
+  margin:10px 10px 20px 0 ;
+}
+.catagory:hover{
+background-color: rgb(246,246,246);
+
+}
+
+.heading h2{
+  text-align: center;
+  margin: 20px;
+}
+
+
+     .card img{ width:100%;
+      height: 0vh;}
+    .row1{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    }
+    .carousel-item  img{
+      width: 100%;
+      height: 50vh; 
+
+    }
+    .catagory{
+      width:100%;
+      height: 60vh;
+    }
+    .rating{
+    color: rgb(253, 180, 42);
+    margin: 12px;
+
+  }
+  .rev-section{
+    margin: 20px 20px 20px 0px;
+    padding: 0 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-color{
+  	background-color: #F9F8F4;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-item ul{
+
+list-style: none;
+}
+  .social-link a{
+    display: flex;
+  }
+ 
+
+.my-btn{
+
+	width:100%;
+	margin-bottom: 10px
+}  
+ table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+th,td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+    a{
+         text-decoration: none;
+         color: white;
+         margin-left: 30px;
+         margin-top: 20px;
+         display:inline-block; 
+
+ 	}
+    .admin-logout{
+        float: right;
+    }
+    .admin-logout button{
+        padding: 5px 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .admin_nav{
+    	height: 70px;
+    	 background-color:rgb(0,64,68) ;
+    	 font-size: 24px;
+    	 position: relative;
+    }
+    .admin-dashboard{
+width: 20%;
+height: 100vh;
+background-color:rgb(0,64,68) ;
+position: absolute;
+top: 70px;
+left: 0;
+    }
+    .admin-dashboard h3{
+    	text-align: center;
+    	color: white;
+    }
+    .toggle-button{
+    	float: left;
+    	margin-top: 10px;
+    	margin-left: 10px;
+    }
+    
